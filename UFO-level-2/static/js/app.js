@@ -24,7 +24,7 @@ addData(tableData);
 // Create filter for data
 let button = d3.select("#filter-btn"); {
 button.on("click", function() {
-    console.log("button was clicked");
+    // console.log("button was clicked");
 
     // clear out table
     tbody.html("");
