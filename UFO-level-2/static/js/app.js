@@ -32,7 +32,7 @@ button.on("click", function() {
     // prevent default behavior
     d3.event.preventDefault();
 
-    // 
+    // connect to html
     let inputDate = d3.select("#datetime");
     let inputCity = d3.select("#city");
     let inputState = d3.select("#state");
@@ -44,7 +44,7 @@ button.on("click", function() {
         datetime: inputDate.property('value').trim(),
         city: inputCity.property('value').trim(),
         state: inputState.property('value').trim(),
-        counrty: inputCountry.property('value').trim(),
+        country: inputCountry.property('value').trim(),
         shape: inputShape.property('value').trim(),
     };
 

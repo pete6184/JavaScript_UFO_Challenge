@@ -16,6 +16,7 @@ let addData = (dataInput) => {
     });
 }
 
+// print data to html table
 addData(tableData);
 
 // Create filter for data
@@ -23,6 +24,7 @@ let button = d3.select("#filter-btn"); {
 button.on("click", function() {
     console.log("button was clicked");
 
+    // clear out table to accept new filtered data
     tbody.html("");
 
     // prevents default behavior
@@ -30,10 +32,12 @@ button.on("click", function() {
 
     let inputDate = d3.select("#datetime");
 
+    // set filter for date input
     const filter = tableData.filter(dataInput => dataInput.datetime === inputDate.property("value").trim());
 
-    console.log(filter)
+    // console.log(filter)
 
+    // print new filtered data to html
     addData(filter);
 
         }
