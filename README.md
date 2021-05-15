@@ -16,20 +16,6 @@ You can handle this... right? The planet Earth needs to know what we have found!
 
 ## Your Task
 
-### Before You Begin
-
-1. Create a new repository for this project called `javascript-challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Inside your local git repository, create a directory for the Javascript challenge. Use the folder names to correspond to the challenges: **UFO-level-1** and **UFO-level-2**.
-
-4. Add your **html** files to this folder as well as your static folder containing your javascript. This will be the main script to run for analysis.
-
-5. Push the above changes to GitHub or GitLab.
-
-6. Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
-
 ### Level 1: Automatic Table and Date Search (Required)
 
 * Create a basic HTML web page or use the [index.html](StarterCode/index.html) file provided (we recommend building your own custom page!).
@@ -39,6 +25,8 @@ You can handle this... right? The planet Earth needs to know what we have found!
   * Make sure you have a column for `date/time`, `city`, `state`, `country`, `shape`, and `comment` at the very least.
 
 * Use a date form in your HTML document and write JavaScript code that will listen for events and search through the `date/time` column to find rows that match user input.
+
+![screenshot](https://user-images.githubusercontent.com/74940976/118374005-970a5980-b56e-11eb-9613-666e67e72139.PNG)
 
 ### Level 2: Multiple Search Categories (Optional)
 
@@ -52,7 +40,7 @@ You can handle this... right? The planet Earth needs to know what we have found!
   4. `country`
   5. `shape`
 
-- - -
+![screenshot](https://user-images.githubusercontent.com/74940976/118374011-9e316780-b56e-11eb-8acd-e8d86c613050.PNG)
 
 ### Dataset
 
